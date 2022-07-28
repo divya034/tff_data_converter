@@ -20,7 +20,7 @@ Functions
 1. Reader function: 
 Create an object of class reader to access its member functions
       Arguments:
-      a. data_type: 'csv' or 'text' or 'image'
+      a. data_type: 'csv' or 'text' or 'image' 
       b. dataset: link your dataset i.e input_path
       
 Example: 
