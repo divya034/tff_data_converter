@@ -11,5 +11,5 @@ Usage
 
 .. code-block:: bash
 
-    >>> from data_conversion_tff import main
-    >>> main.Reader(data_type,dataset)
+    from data_conversion_tff import main
+    main.Reader(data_type,dataset)
