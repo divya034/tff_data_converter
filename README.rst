@@ -19,7 +19,7 @@ Functions
 
 1. Reader function: 
 Create an object of class reader to access its member functions
-Arguments:
+      Arguments:
       a. data_type: 'csv' or 'text' or 'image'
       b. dataset: link your dataset i.e input_path
       
@@ -29,7 +29,7 @@ Object = main.Reader(data_type, dataset)
 
 2. read_data():
 Member function of the Class reader to extract the data and its labels.
-Arguments:
+        Arguments:
         None
 Example:
 data, labels = obj.read_data()
