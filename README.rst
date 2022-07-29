@@ -12,9 +12,21 @@ Usage
 .. code-block:: bash
 
     from data_conversion_tff import main
-    main.Reader(data_type, dataset)
+    obj = main.Reader(data_type, dataset)
+    
+    data, labels = obj.read_data()
+
+    NUM_CLIENTS = 10
+    SELECTED_FEATURE = 1
+    dataset = main.convert_to_client_data(data, labels,  data_type,
+                                                dist_type = 'niid',
+                                                number_of_clients = NUM_CLIENTS,
+                                                selected_feature=SELECTED_FEATURE,
+                                                min_seen_labels=2,
+                                                max_seen_labels=3
+                                                )
    
-Functions
+Functions (not completed)
 =====
 
 1. Reader function: 
