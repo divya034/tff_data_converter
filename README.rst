@@ -15,8 +15,10 @@ Usage
 
 
      data_type = 'image' # type image or csv
+     
      input_path = r'C:\Users\beaut\OneDrive\Desktop\mitacs\fish_sample_3' #insert the link
-    obj = main.Reader(data_type, dataset)
+     
+     obj = main.Reader(data_type, dataset)
     
     
     data, labels = obj.read_data()
